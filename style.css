@@ -16,6 +16,8 @@ html {
   body {
     min-width: 320px;
     margin: 0 auto;
+    background: #F8F8F8;
+
   }
   
   .header__navigation {
