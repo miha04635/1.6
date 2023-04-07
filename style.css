@@ -413,3 +413,158 @@ html {
   .asid__main {
     display: none;
   }
+
+
+.aside {
+    max-width: 320px;
+    max-height: 1024px;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+
+button {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    border: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #1B1C21;
+}
+
+button {
+    cursor: pointer;
+}
+
+.aside__menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 23px;
+}
+
+.aside__burger {
+    margin-right: 16.73px;
+}
+
+.aside {
+    margin-top: 50.46px;
+    
+}
+
+.aside__navigation {
+    display: grid;
+    gap: 32px;
+}
+
+.aside__navigation--link {
+    
+    font-family: "TT Lakes";
+    font-weight: 500;
+    color: #1B1C21;
+}
+
+.aside__navigation--item {
+    width: 100%;
+    font-size: 16px;
+    line-height: 24px;
+    
+}
+
+.aside__footer__email-addres {
+    display: block;
+    margin-top: 16px;
+    margin-bottom: 12px;
+}
+
+.aside__footer__phone {
+    margin-bottom: 40px;
+}
+
+.aside__navigation--link:hover::before {
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 32px;
+    left: -11px;
+    background-color: #41F6D7;
+    border-radius: 20%;
+    transform: translateX(10px);
+    
+}
+
+.aside__navigation--link:hover {
+    color: #7E7E82;
+}
+
+
+
+.aside__footer {
+    position: absolute;
+    bottom: 0;
+    margin: 16px 0 32px 0;
+}
+
+.aside__footer__contacs {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.aside__footer__contacts--call,
+.aside__footer__contacts--chat {
+    margin-right: 16px;
+}
+
+.aside__footer__email-addres {
+    font-family: "TT Lakes";
+    font-weight: 500;
+    margin-top: 16px;
+    margin-bottom: 12px;
+    color: #1B1C21;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.aside__footer__phone {
+    display: block;
+    font-weight: 700;
+    margin-bottom: 40px;
+    font-size: 24px;
+    line-height: 32px;
+    color: #1B1C21;
+}
+
+.aside-footter__lang--text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1B1C21;
+    font-family: "TT Lakes";
+}
+
+.aside-footter__lang--text:hover {
+    color: #7E7E82;
+}
+
+.aside__footer__lang input[type=radio] {
+    display: none;
+}
+
+.aside__footer__lang {
+    display: flex;   
+}
+
+.aside-footter__lang--text {
+    margin-right: 7px;
+}
