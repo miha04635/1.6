@@ -176,7 +176,7 @@ html {
     flex-wrap: wrap;
   }
   
-  .container {
+  .about__container {
     margin: 0 16px 0 16px;
     display: flex;
     flex-wrap: wrap;
@@ -266,7 +266,7 @@ html {
       border-radius: 6px;
       padding-bottom: 40px
     }
-    .container {
+    .about__container {
       text-align: start;
       max-width: 312px;
       margin: 0 48px 0 24px;
@@ -372,7 +372,7 @@ html {
       padding-top: 0;
       padding-bottom: 8.37px;
     }
-    .container {
+    .about__container {
       margin: 0 0 0 34px;
       max-width: 490px;
     }
