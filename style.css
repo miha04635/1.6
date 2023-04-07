@@ -1,6 +1,6 @@
 html {
     box-sizing: border-box;
-    
+    background: #F8F8F8;
   }
   *, *:before, *:after {
     box-sizing: inherit;
@@ -16,8 +16,10 @@ html {
   body {
     min-width: 320px;
     margin: 0 auto;
-    background: #F8F8F8;
+  }
 
+  .header {
+    background-color: #FFFFFF;
   }
   
   .header__navigation {
@@ -572,7 +574,8 @@ button {
     margin-right: 7px;
 }
 
-.brands__title {
+.brands__title,
+.Device__title {
     border-top: 1px solid #D9FFF5;
     padding: 16px;
     padding-bottom: 16px;
@@ -605,7 +608,8 @@ button {
   
   }
   
-  .brands__title {
+  .brands__title,
+  .Device__title {
   color: #7E7E82;
   font-size: 16px;
   line-height: 24px;
@@ -614,8 +618,8 @@ button {
   font-family: "TT Lakes";
   margin: 0;
   }
-  
-  
+
+
   .swiper-wrapper {
   margin-left: 16px;
   background-color: #F8F8F8;
@@ -651,6 +655,15 @@ button {
   .brands__list {
     width: auto;
   }
+  .Device__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px 24px;
+    overflow: hidden;
+    padding: 0;
+    padding-left: 24px;
+    margin-left: 0;
+  }
   .swiper-slide-active {
     margin: 0;
   }
@@ -663,17 +676,23 @@ button {
   }
   .brands {
     overflow: hidden;
-    height: 230px;
+    height: 245px;
     margin-right: 24px;
+  }
+  .Device {
+    overflow: hidden;
+    height: 200px;
   }
   .expanded {
     height: auto;
     overflow: hidden;
   }
   
-  .brands__title {
+  .brands__title,
+  .Device__title{
     margin: 0;
     padding-left: 24px;
+    margin-bottom: 24px;
   }
   .brands__list {
     display: grid;
@@ -708,6 +727,9 @@ button {
     padding-top: 24px;
     padding-left: 32px;
   }
+  .Device__show-more {
+    display: flex !important;
+  }
   .icon {
     content: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='8' height='11' fill='none'%3e%3cpath fill='%2341F6D7' fill-rule='evenodd' d='M6.5.5 4 3 1.5.5a.707.707 0 0 0-1 1l2.793 2.793a1 1 0 0 0 1.414 0L7.5 1.5a.707.707 0 0 0-1-1Zm0 6L4 9 1.5 6.5a.707.707 0 1 0-1 1l2.793 2.793a1 1 0 0 0 1.414 0L7.5 7.5a.707.707 0 0 0-1-1Z' clip-rule='evenodd'/%3e%3c/svg%3e");
     margin-right: 17px;
@@ -717,7 +739,6 @@ button {
   .icon__content {
     transform: rotate(180deg);
   }
-  
   }
   
   @media (min-width: 1120px) {
@@ -730,11 +751,34 @@ button {
       gap: 16px 32px;
       grid-template-columns: 1fr 1fr 1fr 1fr;
   }
-  .brands__title {
+  .brands__title,
+  .Device__title {
     padding-left: 32px;
   }
   .brands__show-more {
     padding-left: 39px;
   }
   
+  }
+
+  .Device__text {
+    color: #1B1C21;
+    padding-left: 16px;
+    font-family: "TT Lakes";
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+  .Device__list {
+    margin-top: 16px;
+  }
+
+  .Device__item {
+    width: 240px;
+    height: 160px;
+    display: block !important;
+  }
+
+  .Device__show-more {
+    display: none;
   }
