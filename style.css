@@ -575,6 +575,7 @@ button {
 .brands__title {
     border-top: 1px solid #D9FFF5;
     padding: 16px;
+    padding-bottom: 32px;
     margin-bottom: 16px;
     background: linear-gradient(270deg, #F8F8F8 0%, #FFFFFF 98.61%);
 
@@ -639,6 +640,12 @@ button {
   .logo {
   padding-left: 16px;
   }
+
+  .brands__list {
+    padding-top: 16px;
+  }
+
+
   
   @media (min-width: 768px) {
   .brands__list {
