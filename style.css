@@ -409,3 +409,7 @@ html {
     display: flex;
     justify-content: space-between;
   }
+
+  .aside {
+    display: none;
+  }
