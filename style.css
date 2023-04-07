@@ -767,6 +767,8 @@ button {
     font-family: "TT Lakes";
     font-size: 16px;
     line-height: 24px;
+    margin-bottom: 64px;
+    display: inline-block !important;
   }
   
   .Device__list {
@@ -776,9 +778,14 @@ button {
   .Device__item {
     width: 240px;
     height: 160px;
-    display: block !important;
+    display: inline-block !important;
+    text-align: start;
   }
 
   .Device__show-more {
     display: none;
+  }
+
+  .Device__button {
+    margin-left: 168px;
   }
