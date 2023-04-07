@@ -410,11 +410,11 @@ html {
     justify-content: space-between;
   }
 
-  .asid__main {
+
+  aside {
     display: none;
   }
-
-
+  
 .aside {
     display: none;
     max-width: 320px;
