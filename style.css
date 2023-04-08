@@ -667,7 +667,7 @@ button {
   .swiper-slide-active {
     margin: 0;
   }
-  .brands__show-more--bth {
+  .Device__show-more--bth {
     font-weight: 500;
     font-family: "TT Lakes";
     font-size: 16px;
@@ -684,6 +684,10 @@ button {
     height: 200px;
   }
   .expanded {
+    height: auto;
+    overflow: hidden;
+  }
+  .expanded__Device {
     height: auto;
     overflow: hidden;
   }
@@ -716,7 +720,8 @@ button {
     cursor: pointer;
     border: none;
   }
-  .brands__show-more {
+  .brands__show-more,
+  .Device__show-more {
     background-color: #F8F8F8;
     display: flex;
     align-items: center;
@@ -730,7 +735,8 @@ button {
   .Device__show-more {
     display: flex !important;
   }
-  .icon {
+  .icon,
+  .Device__icon {
     content: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='8' height='11' fill='none'%3e%3cpath fill='%2341F6D7' fill-rule='evenodd' d='M6.5.5 4 3 1.5.5a.707.707 0 0 0-1 1l2.793 2.793a1 1 0 0 0 1.414 0L7.5 1.5a.707.707 0 0 0-1-1Zm0 6L4 9 1.5 6.5a.707.707 0 1 0-1 1l2.793 2.793a1 1 0 0 0 1.414 0L7.5 7.5a.707.707 0 0 0-1-1Z' clip-rule='evenodd'/%3e%3c/svg%3e");
     margin-right: 17px;
     
@@ -746,7 +752,8 @@ button {
   .brands__item {
       width: 240px;
   }
-  .brands__list {
+  .brands__list,
+  .Device__list {
       padding-left: 32px;
       gap: 16px 32px;
       grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -755,7 +762,8 @@ button {
   .Device__title {
     padding-left: 32px;
   }
-  .brands__show-more {
+  .brands__show-more,
+  .Device__show-more {
     padding-left: 39px;
   }
   
