@@ -575,7 +575,8 @@ button {
 }
 
 .brands__title,
-.Device__title {
+.Device__title,
+.Services__title {
     border-top: 1px solid #D9FFF5;
     padding: 16px;
     padding-bottom: 16px;
@@ -609,7 +610,8 @@ button {
   }
   
   .brands__title,
-  .Device__title {
+  .Device__title,
+  .Services__title {
   color: #7E7E82;
   font-size: 16px;
   line-height: 24px;
@@ -667,19 +669,13 @@ button {
   .swiper-slide-active {
     margin: 0;
   }
-  .Device__show-more--bth {
-    font-weight: 500;
-    font-family: "TT Lakes";
-    font-size: 16px;
-    font-weight: 500;
-    
-  }
   .brands {
     overflow: hidden;
     height: 245px;
     margin-right: 24px;
   }
-  .Device {
+  .Device,
+  .Services {
     overflow: hidden;
     height: 200px;
   }
@@ -693,7 +689,8 @@ button {
   }
   
   .brands__title,
-  .Device__title{
+  .Device__title,
+  .Services__title{
     margin: 0;
     padding-left: 24px;
     margin-bottom: 24px;
@@ -723,7 +720,7 @@ button {
   .brands__show-more,
   .Device__show-more {
     background-color: #F8F8F8;
-    display: flex;
+    display: flex !important;
     align-items: center;
     font-size: 16px;
     line-height: 24px;
@@ -732,11 +729,9 @@ button {
     padding-top: 24px;
     padding-left: 32px;
   }
-  .Device__show-more {
-    display: flex !important;
-  }
   .icon,
-  .Device__icon {
+  .Device__icon,
+  .Services__icon {
     content: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='8' height='11' fill='none'%3e%3cpath fill='%2341F6D7' fill-rule='evenodd' d='M6.5.5 4 3 1.5.5a.707.707 0 0 0-1 1l2.793 2.793a1 1 0 0 0 1.414 0L7.5 1.5a.707.707 0 0 0-1-1Zm0 6L4 9 1.5 6.5a.707.707 0 1 0-1 1l2.793 2.793a1 1 0 0 0 1.414 0L7.5 7.5a.707.707 0 0 0-1-1Z' clip-rule='evenodd'/%3e%3c/svg%3e");
     margin-right: 17px;
     
@@ -753,13 +748,15 @@ button {
       width: 240px;
   }
   .brands__list,
-  .Device__list {
+  .Device__list,
+  .Services__list {
       padding-left: 32px;
       gap: 16px 32px;
       grid-template-columns: 1fr 1fr 1fr 1fr;
   }
   .brands__title,
-  .Device__title {
+  .Device__title,
+  .Services__title {
     padding-left: 32px;
   }
   .brands__show-more,
@@ -779,7 +776,8 @@ button {
     display: inline-block !important;
   }
   
-  .Device__list {
+  .Device__list,
+  .Services__list {
     margin-top: 16px;
   }
 
@@ -796,4 +794,32 @@ button {
 
   .Device__button {
     margin-left: 168px;
+  }
+
+
+  .Services__item {
+    width: 260px;
+    height: 200px;
+    display: inline-block !important;
+    text-align: start;
+  }
+
+  .Services__text--p {
+    font-family: "TT Lakes";
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: #1B1C21;
+    margin: 0 0 20px 16px;
+
+  }
+
+  .Services__text--span {
+    font-family: "TT Lakes";
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #7E7E82;
   }
