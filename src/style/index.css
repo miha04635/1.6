@@ -46,11 +46,11 @@ p {
   padding-left: 16px;
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-start;
-  justify-content: space-around;
+  align-items: flex-start !important;
+  justify-content: space-around !important;
   flex-direction: column;
-  width: 242px;
-  height: 198px;
+  width: 242px !important;
+  height: 198px !important;
   border: 1px solid #EAEAEA;
 }
 
